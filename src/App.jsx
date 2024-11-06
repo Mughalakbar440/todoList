@@ -23,7 +23,6 @@ function App() {
     setTodos(newTodoList);
     persistData(newTodoList);
   }
-
   function handleEditTodo(index) {
     const valueToboEdited = todos[index];
     setTodoValue(valueToboEdited);
