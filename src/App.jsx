@@ -27,7 +27,6 @@ function App() {
   function handleEditTodo(index) {
     const valueToboEdited = todos[index];
     setTodoValue(valueToboEdited);
-    persistData(valueToboEdited);
     handleDeleteTodo(index);
   }
 
